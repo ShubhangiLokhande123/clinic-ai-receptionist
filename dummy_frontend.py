@@ -3,7 +3,7 @@ import streamlit as st
 import datetime as dt
 import requests
 
-st.title("Dubai Hospital Appointment Booking Portal")
+st.title("Multi-speciality APOLO Hospital Appointment Booking System")
 base_url = st.text_input("Backend URL", "http://localhost:4444").rstrip("/")
 
 patient_name = st.text_input("Patient name")
